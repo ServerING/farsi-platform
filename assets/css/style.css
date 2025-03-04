@@ -1,0 +1,31 @@
+/* تم تاریک پیش‌فرض */
+.dark-theme {
+    background-color: #1a1a1a;
+    color: #e0e0e0;
+}
+
+.CodeMirror {
+    height: 70vh !important;
+    font-family: 'Vazirmatn', monospace;
+    font-size: 14px;
+    border-radius: 8px;
+}
+
+.card {
+    border: 1px solid #333;
+    background-color: #2d2d2d;
+}
+
+#output {
+    height: 300px;
+    background-color: #1e1e1e;
+    border-radius: 6px;
+    font-family: 'Vazirmatn', monospace;
+}
+
+.cloud-library-card {
+    transition: transform 0.2s;
+}
+.cloud-library-card:hover {
+    transform: translateY(-5px);
+}
